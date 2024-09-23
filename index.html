@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>eu tinha te avisado, nao acreditou pois nao quis</title>
+    <!-- Estilo para garantir que o contêiner de partículas ocupe toda a tela -->
+    <style>
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Certifique-se de que as partículas fiquem atrás do conteúdo */
+            pointer-events: none; /* Isso impede que as partículas interfiram na interação do usuário com o site */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Adicione o contêiner das partículas aqui -->
+    <div id="particles-js"></div>
+
+    <header>
+        <h1>nao tive objetivo de desrespeitar ninguem</h1>
+        <h5>nao quis desrespeitar ningueeeeeeem</h5>
+        <h1>te avisei professor</h1>
+        <h3>fonte abaixo</h3>
+        <div class="google-search-top">
+            <div class="gcse-search"></div>
+            <p>MEU site é minha fonte, professor!</p>
+        </div>
+    
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Tirei as pesquisas que coloquei apenas para te mostrar que o que tu falou tava errado.">
+            <button>Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa">
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">é  professor, fui eu, Pedro que criei, usando HTML e CSS.</a>
+                </h2>
+                <p class="descricao-meta">duvidou, né?</p>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Quer mais provas? olhe a print abaixo</a>
+                </h2>
+               <img src="Praqueduvidar.jpg" alt="então toma" width="60" height="40">
+                <p class="descricao-meta">Se tu ainda não acredita, posso fazer nada.</p>
+                <div class="meu-banner">
+            </div>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Iai, ta impressionado?</p>
+        <p>Era melhor não ter duvidado.</p>
+    </footer>
+
+    <!-- Script do Google Custom Search -->
+    <script async src="https://cse.google.com/cse.js?cx=f328282ebf88a4e22"></script>
+    
+    <!-- Script das partículas -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 120,  // Aumenta o número de partículas
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"  // Cor das partículas
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.8,  // Opacidade das partículas
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.3,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,  // Tamanho das partículas
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.6,  // Opacidade das linhas
+                    "width": 2  // Espessura das linhas
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    <img src="Praqueduvidar.jpg" alt="entao toma" width="60" height="40">
+</body>
+
+</html>
